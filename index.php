@@ -1,3 +1,7 @@
+<!DOCTYPE html> 
+<html> 
+<body>
+<?php 
 <?php
         $user = $_GET['user'];
         $pass = $_GET['pass'];
@@ -20,3 +24,7 @@
                 return FALSE;
         }
 ?>
+
+</body> 
+
+</html> 
